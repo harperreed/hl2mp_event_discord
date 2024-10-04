@@ -1,0 +1,5 @@
+cron.log
+hl2dm_events.db
+hl2dm_log_processor.log
+.env
+last_processed.json
