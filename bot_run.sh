@@ -10,7 +10,7 @@ PROJECT_DIR="/home/hl2dmserver/discord_bot"
 cd $PROJECT_DIR
 
 # Run the Python script
-/usr/bin/python3 $PROJECT_DIR/hl2dm_log_processor.py >> $PROJECT_DIR/cron.log 2>&1
+/usr/bin/python3 $PROJECT_DIR/main.py >> $PROJECT_DIR/cron.log 2>&1
 
 # Deactivate virtual environment if you activated one
 # deactivate
